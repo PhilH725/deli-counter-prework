@@ -7,6 +7,6 @@ def line(current_line)
     for i in (1..current_line.size)
       message += "#{i}. #{current_line[i - 1]}. "
     end
-    puts message
+    puts message[0:message.size-2]
   end
 end
