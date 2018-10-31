@@ -5,7 +5,7 @@ def line(current_line)
   else
     message = "The line is currently: "
     for i in (1..current_line.size)
-      message += "#{i}. #{current_line[i - 1]}."
+      message += "#{i}. #{current_line[i - 1]}. "
     end
     puts message
   end
