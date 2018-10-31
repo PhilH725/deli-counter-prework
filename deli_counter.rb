@@ -10,3 +10,8 @@ def line(current_line)
     puts message.strip
   end
 end
+
+def take_a_number(current_line, name)
+  current_line.push(name)
+  puts "You"
+end
