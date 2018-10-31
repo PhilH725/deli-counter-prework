@@ -6,4 +6,5 @@ def line(current_line)
     for i in (1..current_line.size)
       "You are #{i} in line."
     end
+  end
 end
