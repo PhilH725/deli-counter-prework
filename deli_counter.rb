@@ -17,6 +17,10 @@ def take_a_number(current_line, name)
 end
 
 def now_serving(current_line)
-  serving = current_line.shift()
-  puts "Now"
+  if current_line.size == 0
+    puts "There is nobody waiting to be served!"
+  else
+    serving = current_line.shift()
+    puts "Currently serving #{serving}."
+  end
 end
